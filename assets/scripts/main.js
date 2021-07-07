@@ -67,8 +67,3 @@ $(".saveBtn").each(function(i) {
         localStorage.setItem(`textArea #${i+1}`, thisHourText.val());
     });
 });
-
-
-$("#testButton").on("click", function() {
-    localStorage.clear();
-})
