@@ -5,7 +5,7 @@ let container = $(".container");
 
 //Add all rows for scheduler to the container element
 function addHours() {
-    for (i = 0; i < 9; i++) {
+    for (let i = 0; i < 9; i++) {
         let nextRow = $("<div>");
         nextRow.attr("class", "row");
         container.append(nextRow);
