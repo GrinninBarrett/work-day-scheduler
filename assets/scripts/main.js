@@ -27,6 +27,7 @@ function addHours() {
         nextRow.append(nextText);
         nextRow.append(nextSave);
 
+        // Add save button icon to each save button
         let nextIconContainer = $("<i>");
         nextSave.append(nextIconContainer);
         let nextIcon = $("<img>");
@@ -55,10 +56,10 @@ function checkTime() {
     });
 }
 
-// Upon clicking save button, save text content of textarea element to local storage
-
+// Create all elements on page load
 addHours();
 checkTime();
+
 
 // Add event listener to each save button in order to set local storage
 $(".saveBtn").each(function(i) {

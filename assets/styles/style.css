@@ -66,6 +66,8 @@ i {
   padding: 10px;
 }
 
+
+/* Change colors of time blocks based on actual time of day */
 .past {
   background-color: #d3d3d3;
 }
@@ -93,8 +95,3 @@ i {
 .saveBtn:hover {
   cursor: pointer;
 }
-
-/* .saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-} */
